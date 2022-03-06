@@ -3,7 +3,7 @@ from pyfiglet import Figlet
 import folium
 
 
-def get_info_by_ip(ip='127.0.0.1'):
+def get_info_ip(ip='127.0.0.1'):
     try:
         response = requests.get(url=f'http://ip-api.com/json/{ip}').json()
         # print(response)
@@ -35,7 +35,7 @@ def main():
     print(preview_text.renderText('Find Ip Location'))
     ip = input('Ip주소입력: ')
     
-    get_info_by_ip(ip=ip)
+    get_info_ip(ip=ip)
     
     
 if __name__ == '__main__':
