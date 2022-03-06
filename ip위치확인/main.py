@@ -31,10 +31,9 @@ def get_info_ip(ip='127.0.0.1'):
         
         
 def main():
-    preview_text = Figlet(font='slant')
-    print(preview_text.renderText('Find Ip Location'))
+    text = Figlet(font='slant')
+    print(text.renderText('Find Ip Location'))
     ip = input('Ip주소입력: ')
-    
     get_info_ip(ip=ip)
     
     
