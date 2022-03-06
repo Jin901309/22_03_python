@@ -1,12 +1,12 @@
 ##  ip-api를 이용하여 ip주소 위치정보 확인하기
 <p align="center">
-  <img src="3.png" />
+  <img src="3.png" width=200 height=200 />
 </p>
 <p align="center">
-  <img src="4.png" />
+  <img src="4.png" width=200 height=200 />
 </p>
 <p align="center">
-  <img src="5.png" />
+  <img src="5.png" width=200 height=200 />
 </p>
 ## 간단 설명
 -Figlet은 콘솔 멋내기용
